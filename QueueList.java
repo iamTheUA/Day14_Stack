@@ -34,4 +34,13 @@ public class QueueList<T> {
 		}
 	}
 	
+	public void dequeue() {
+		if(size>0) {
+			head=head.next;
+			
+			
+		}else {
+			System.out.println("Empty Queue");			
+		}
+	}
 }

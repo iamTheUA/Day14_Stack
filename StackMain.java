@@ -11,6 +11,8 @@ public class StackMain {
 		qu.append(70);
 		qu.show();
 		
+		qu.dequeue();
+		qu.show();
 	}
 
 }
