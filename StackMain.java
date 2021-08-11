@@ -3,16 +3,14 @@ package Stack.Day14;
 public class StackMain {
 
 	public static void main(String[] args) {
-
-		Stack<Integer> sList = new Stack<>();
-		sList.push(70);
-		sList.push(30);
-		sList.push(56);
-		sList.push(5);
-		sList.push(6);
-		sList.peek();
-		sList.pop();
-		sList.show();
+		
+		QueueList<Integer> qu = new QueueList<Integer>();
+		
+		qu.append(56);
+		qu.append(30);
+		qu.append(70);
+		qu.show();
+		
 	}
 
 }
