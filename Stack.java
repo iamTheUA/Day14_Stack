@@ -17,7 +17,7 @@ public class Stack<T> {
 	}
 	
 	public void show(){
-		if(size!=0) {
+		if(size>0) {
 			Node<T> n = head;
 			while(n.next!=null) {
 				System.out.println(n.data);
@@ -25,8 +25,22 @@ public class Stack<T> {
 			}
 			System.out.println(n.data);
 		}
+		else {
+			System.out.println("Empty Stack!");
+		}
 	}
 	
+	public void peek() {
+		if(size>0) {
+			System.out.println(head.data);
+		}else {
+			System.out.println("Empty Stack!");
+		}
+	}
 	
-	
+	public void pop() {
+		if(size>0) {
+		head=head.next;	
+		}
+	}
 }

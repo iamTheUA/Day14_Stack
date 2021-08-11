@@ -8,6 +8,10 @@ public class StackMain {
 		sList.push(70);
 		sList.push(30);
 		sList.push(56);
+		sList.push(5);
+		sList.push(6);
+		sList.peek();
+		sList.pop();
 		sList.show();
 	}
 
